@@ -15,18 +15,11 @@
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name='phonegap-version' value='cli-8.1.1' />
     <access origin="*" />
     <content src="index.html" />
     <platform name="windows">
     </platform>
     <platform name="ios">
-        <config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist">
-		<true/>
-	</config-file>
-	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist">
-		<false/>
-	</config-file>
         <preference name="Orientation" value="all" />
         <preference name="AutoHideSplashScreen" value="false" />
         <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
